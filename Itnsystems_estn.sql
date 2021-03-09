@@ -2,8 +2,8 @@
 -- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 50.62.209.74:3306
--- Generation Time: Feb 26, 2021 at 08:11 AM
+-- Host: p3nlmysql69plsk.secureserver.net:3306
+-- Generation Time: Mar 09, 2021 at 09:45 AM
 -- Server version: 5.5.51-38.1-log
 -- PHP Version: 7.1.30
 
@@ -134,7 +134,10 @@ CREATE TABLE `tbl_advertisement` (
 
 INSERT INTO `tbl_advertisement` (`id`, `advertisement_id`, `advertisement_type`, `advertisement_name`, `advertisement_image`, `advertisement_url`, `advertisement_valid_from`, `advertisement_valid_to`, `advertisement_description`, `created_by`, `modified_by`, `created_date`, `modified_date`, `currentStatus`) VALUES
 (2, '348641', '', 'fff', '348641_quert1.jpg', '', '2021-02-14', '2021-02-19', '                                                dcdfdfd', 'created_by', 'modified_by', '2021-02-14 21:07:44', '2021-02-14 21:07:44', 'y'),
-(3, '185119', '', 'dfdsfdsf', '185119_d32.jpg', '', '2021-02-19', '2021-02-26', '                                                dfdsfs', 'created_by', 'modified_by', '2021-02-14 21:08:20', '2021-02-14 21:08:20', 'y');
+(3, '185119', '', 'dfdsfdsf', '185119_d32.jpg', '', '2021-02-19', '2021-02-26', '                                                dfdsfs', 'created_by', 'modified_by', '2021-02-14 21:08:20', '2021-02-14 21:08:20', 'y'),
+(5, '719729', '', 'cantin', '', '', '2021-03-01', '2021-03-31', '                                                ', 'created_by', 'modified_by', '2021-03-01 03:27:40', '2021-03-01 03:27:40', 'y'),
+(6, '675204', '', '', '', '', '', '', '                                                ', 'created_by', 'modified_by', '2021-03-01 04:49:06', '2021-03-01 04:49:06', 'y'),
+(7, '790590', '', '', '', '', '', '', '                                                ', 'created_by', 'modified_by', '2021-03-01 04:54:52', '2021-03-01 04:54:52', 'y');
 
 -- --------------------------------------------------------
 
@@ -251,7 +254,10 @@ CREATE TABLE `tbl_candidate_registration` (
 --
 
 INSERT INTO `tbl_candidate_registration` (`id`, `candidate_id`, `first_name`, `last_name`, `gender`, `d_o_b`, `address`, `mobile`, `email`, `password`, `dept_id`, `category_id`, `avatar`, `country`, `state`, `city`, `package_type`, `package_expiry`, `last_login_date`, `created_by`, `modified_by`, `created_date`, `modified_date`, `currentStatus`) VALUES
-(3, 'AD-533120', 'Ashish', 'sadsd', 'male', '2021-02-13', 'Nagpur', '9579010026', 'devidas.patle@rediffmail.com', 'fcea920f7412b5da7be0cf42b8c93759', NULL, NULL, 'AD-533120_dwwww23.jpg', 'sdsada', 'sdsdsa', 'Bangalore', NULL, NULL, '2021-02-14 16:21:59', 'devidas.patle@rediffmail.com', 'devidas.patle@rediffmail.com', '2021-02-14 21:51:59', '2021-02-14 21:51:59', 'y');
+(3, 'AD-533120', 'Ashish', 'sadsd', 'male', '2021-02-13', 'Nagpur', '9579010026', 'devidas.patle@rediffmail.com', 'fcea920f7412b5da7be0cf42b8c93759', NULL, NULL, 'AD-533120_dwwww23.jpg', 'sdsada', 'sdsdsa', 'Bangalore', NULL, NULL, '2021-02-14 16:21:59', 'devidas.patle@rediffmail.com', 'devidas.patle@rediffmail.com', '2021-02-14 21:51:59', '2021-02-14 21:51:59', 'y'),
+(4, 'CD-46701', '', '', 'male', '', '', '', '', 'd41d8cd98f00b204e9800998ecf8427e', NULL, NULL, '', '', '', '', NULL, NULL, '2021-03-01 11:56:12', '', '', '2021-03-01 04:56:12', '2021-03-01 04:56:12', 'y'),
+(5, 'CD-303046', '', '', 'male', '', '', '', '', 'd41d8cd98f00b204e9800998ecf8427e', NULL, NULL, '', '', '', '', NULL, NULL, '2021-03-01 11:56:30', '', '', '2021-03-01 04:56:30', '2021-03-01 04:56:30', 'y'),
+(6, 'CD-214058', 'Pranit', 'khangar', 'male', '2021-03-06', 'IT', '7', 'jk@gmail.com', 'c4ca4238a0b923820dcc509a6f75849b', NULL, NULL, 'CD-214058_pan.jpg', 'India', 'Maharashtra', ' NAgpur', NULL, NULL, '2021-03-06 13:53:32', 'jk@gmail.com', 'jk@gmail.com', '2021-03-06 06:53:32', '2021-03-06 06:53:32', 'y');
 
 -- --------------------------------------------------------
 
@@ -279,7 +285,8 @@ INSERT INTO `tbl_category` (`id`, `category_id`, `department_id`, `category_name
 (2, '220549 ', 0, 'test', '', '', '2020-12-02 18:10:10', '2020-12-02 18:10:10', 'y'),
 (3, '155709', 0, 'Software', 'kjsyfs', 'yusjv', '2020-12-26 03:28:52', '2020-12-26 03:28:52', 'y'),
 (4, '60789', 0, 'test33', 'kjsyfs', 'yusjv', '2021-02-14 20:15:18', '2021-02-14 20:15:18', 'y'),
-(5, '354986', 0, 'testing', 'kjsyfs', 'yusjv', '2021-02-19 23:26:12', '2021-02-19 23:26:12', 'y');
+(5, '354986', 0, 'testing', 'kjsyfs', 'yusjv', '2021-02-19 23:26:12', '2021-02-19 23:26:12', 'y'),
+(9, '248512', 0, 'Today06-03', 'kjsyfs', 'yusjv', '2021-03-06 06:45:22', '2021-03-06 06:45:22', 'y');
 
 -- --------------------------------------------------------
 
@@ -305,9 +312,10 @@ CREATE TABLE `tbl_client_logo` (
 
 INSERT INTO `tbl_client_logo` (`id`, `client_id`, `client_name`, `client_logo`, `created_by`, `modified_by`, `created_date`, `modified_date`, `currentStatus`) VALUES
 (56, '197968', 'Gayatri Vaidya', '197968_signature9.2017.jpg', '', '', '2020-12-14 18:55:09', '2020-12-14 18:55:09', 'Y'),
-(68, '867054', 'Madhavi Bisen', '68_Madhavi photo.jpg', '', '', '2020-12-16 20:39:49', '2020-12-16 20:39:49', 'Y'),
 (69, '289536', 'AD-898533', '289536_d32.jpg', '', '', '2021-02-14 21:31:30', '2021-02-14 21:31:30', 'Y'),
-(70, '868125', 'AD-898533', '868125_d32.jpg', '', '', '2021-02-14 21:31:49', '2021-02-14 21:31:49', 'Y');
+(70, '868125', 'AD-898533', '868125_d32.jpg', '', '', '2021-02-14 21:31:49', '2021-02-14 21:31:49', 'Y'),
+(72, '445562', 'AD-393255', '', '', '', '2021-03-01 05:27:01', '2021-03-01 05:27:01', 'Y'),
+(73, '672397', 'AD-283759', '', '', '', '2021-03-01 05:28:35', '2021-03-01 05:28:35', 'Y');
 
 -- --------------------------------------------------------
 
@@ -370,7 +378,10 @@ CREATE TABLE `tbl_client_registration` (
 --
 
 INSERT INTO `tbl_client_registration` (`id`, `client_id`, `first_name`, `last_name`, `gender`, `d_o_b`, `address`, `mobile`, `email`, `password`, `dept_id`, `category_id`, `logo`, `country`, `state`, `city`, `package_type`, `package_expiry_date`, `role`, `position`, `director_name`, `last_login_date`, `created_by`, `modified_by`, `created_date`, `modified_date`, `currentStatus`) VALUES
-(2, 'AD-898533', 'Devidas', 'Patle', 'male', 'dob', 'Nagpur', '9579010026', 'admin123@gmail.com', 'd41d8cd98f00b204e9800998ecf8427e', 'dept_id', 'category_id', 'logo', 'country', 'state', 'Nagpur', 'package_type', '0000-00-00 00:00:00', 'role', 'Admin', 'director_name', '2021-02-14 19:47:20', 'created_by', 'modified_by', '2021-02-14 19:47:20', '2021-02-14 19:47:20', 'y');
+(2, 'AD-898533', 'Devidas', 'Patle', 'male', 'dob', 'Nagpur', '9579010026', 'admin123@gmail.com', 'd41d8cd98f00b204e9800998ecf8427e', 'dept_id', 'category_id', 'logo', 'country', 'state', 'Nagpur', 'package_type', '0000-00-00 00:00:00', 'role', 'Admin', 'director_name', '2021-02-14 19:47:20', 'created_by', 'modified_by', '2021-02-14 19:47:20', '2021-02-14 19:47:20', 'y'),
+(3, 'AD-393255', '', '', 'male', '', '', '', '', 'd41d8cd98f00b204e9800998ecf8427e', 'dept_id', 'category_id', '', 'country', 'state', '', 'package_type', '0000-00-00 00:00:00', '', '', '', '2021-03-01 05:10:34', 'created_by', 'modified_by', '2021-03-01 05:10:34', '2021-03-01 05:10:34', 'y'),
+(4, 'AD-137673', '', '', 'male', '', '', '', '', '7215ee9c7d9dc229d2921a40e899ec5f', 'dept_id', 'category_id', '', 'country', 'state', '', 'package_type', '0000-00-00 00:00:00', '', '', '', '2021-03-01 05:10:43', 'created_by', 'modified_by', '2021-03-01 05:10:43', '2021-03-01 05:10:43', 'y'),
+(5, 'AD-283759', '', '', 'male', '', '', '', '', '7215ee9c7d9dc229d2921a40e899ec5f', 'dept_id', 'category_id', '', 'country', 'state', '', 'package_type', '0000-00-00 00:00:00', '', '', '', '2021-03-01 05:10:54', 'created_by', 'modified_by', '2021-03-01 05:10:54', '2021-03-01 05:10:54', 'y');
 
 -- --------------------------------------------------------
 
@@ -615,6 +626,26 @@ INSERT INTO `tbl_country` (`con_id`, `phone_code`, `con_name`, `iso`, `status`) 
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `tbl_demo_result`
+--
+
+CREATE TABLE `tbl_demo_result` (
+  `id` int(11) NOT NULL,
+  `candidate_id` varchar(11) DEFAULT NULL,
+  `exam_id` varchar(11) DEFAULT NULL,
+  `result` enum('pass','fail') DEFAULT NULL,
+  `candidate_mark` int(6) DEFAULT NULL,
+  `created_by` varchar(100) DEFAULT NULL,
+  `modified_by` varchar(100) DEFAULT NULL,
+  `created_date` datetime DEFAULT NULL,
+  `modified_date` datetime DEFAULT NULL,
+  `currentStatus` enum('y','n') NOT NULL DEFAULT 'n',
+  `certificate` varchar(64) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `tbl_department`
 --
 
@@ -660,7 +691,84 @@ INSERT INTO `tbl_department` (`id`, `department_id`, `department_name`, `created
 (26, '410894', 'Sign & Languages ', 'created_by', 'modified_by', '2020-12-26 02:40:17', '2020-12-26 02:40:17', 'y'),
 (27, '702853', 'Medical', 'created_by', 'modified_by', '2020-12-26 03:04:10', '2020-12-26 03:04:10', 'y'),
 (28, '15482', 'test', 'created_by', 'modified_by', '2021-02-14 20:15:05', '2021-02-14 20:15:05', 'y'),
-(29, '651370', 'PDKtesting', 'created_by', 'modified_by', '2021-02-19 23:25:38', '2021-02-19 23:25:38', 'y');
+(29, '651370', 'PDKtesting', 'created_by', 'modified_by', '2021-02-19 23:25:38', '2021-02-19 23:25:38', 'y'),
+(31, '321021', ' ', 'created_by', 'modified_by', '2021-03-01 05:36:51', '2021-03-01 05:36:51', 'y'),
+(33, '176979', 'Today06-03', 'created_by', 'modified_by', '2021-03-06 06:44:25', '2021-03-06 06:44:25', 'y');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_examinations`
+--
+
+CREATE TABLE `tbl_examinations` (
+  `id` int(11) NOT NULL,
+  `examId` varchar(64) NOT NULL,
+  `category` int(11) NOT NULL,
+  `subject` int(11) NOT NULL,
+  `exam_name` varchar(255) NOT NULL,
+  `date` varchar(64) NOT NULL,
+  `duration` int(4) NOT NULL,
+  `passmark` int(4) NOT NULL,
+  `re_exam` int(4) NOT NULL,
+  `terms` text NOT NULL,
+  `status` varchar(64) NOT NULL DEFAULT 'Active',
+  `examinerId` varchar(64) NOT NULL,
+  `universe` varchar(200) NOT NULL,
+  `studentid` varchar(2000) NOT NULL,
+  `venue` varchar(64) NOT NULL,
+  `time` varchar(64) NOT NULL,
+  `edate` varchar(64) NOT NULL,
+  `created_by` varchar(255) NOT NULL,
+  `modified_by` varchar(255) NOT NULL,
+  `created_date` date NOT NULL,
+  `modified_date` varchar(64) DEFAULT NULL,
+  `currentStatus` enum('Y','N') NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_exam_history`
+--
+
+CREATE TABLE `tbl_exam_history` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `package` varchar(64) NOT NULL,
+  `totalcost` int(4) NOT NULL,
+  `expirydate` varchar(64) NOT NULL,
+  `totalexam` varchar(20) NOT NULL,
+  `usedexam` varchar(64) NOT NULL,
+  `exam` varchar(64) NOT NULL,
+  `role` varchar(64) NOT NULL,
+  `examinerId` varchar(64) NOT NULL,
+  `purchasingdate` varchar(255) NOT NULL,
+  `created_by` varchar(255) NOT NULL,
+  `modified_by` varchar(255) NOT NULL,
+  `created_date` date NOT NULL,
+  `currentStatus` enum('Y','N') NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_live_result`
+--
+
+CREATE TABLE `tbl_live_result` (
+  `id` int(11) NOT NULL,
+  `candidate_id` varchar(11) DEFAULT NULL,
+  `exam_id` varchar(11) DEFAULT NULL,
+  `result` enum('pass','fail') DEFAULT NULL,
+  `candidate_mark` int(6) DEFAULT NULL,
+  `created_by` varchar(100) DEFAULT NULL,
+  `modified_by` varchar(100) DEFAULT NULL,
+  `created_date` datetime DEFAULT NULL,
+  `modified_date` datetime DEFAULT NULL,
+  `currentStatus` enum('y','n') NOT NULL DEFAULT 'n',
+  `certificate` varchar(64) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -714,7 +822,8 @@ CREATE TABLE `tbl_notice` (
 --
 
 INSERT INTO `tbl_notice` (`id`, `notice_id`, `admin_id`, `candidate_id`, `notice_title`, `notice_description`, `created_by`, `modified_by`, `created_date`, `modified_date`, `currentStatus`) VALUES
-(2, '253602', 0, 0, 'dzffdsfs', 'XsasS', 'created_by', 'modified_by', '2021-02-14 20:55:49', '2021-02-14 20:55:49', 'y');
+(2, '253602', 0, 0, 'dzffdsfs', 'XsasS', 'created_by', 'modified_by', '2021-02-14 20:55:49', '2021-02-14 20:55:49', 'y'),
+(3, '75265', 0, 0, 'Hi', 'Hi', 'created_by', 'modified_by', '2021-03-06 06:48:56', '2021-03-06 06:48:56', 'y');
 
 -- --------------------------------------------------------
 
@@ -736,6 +845,124 @@ CREATE TABLE `tbl_package` (
   `modified_date` datetime DEFAULT NULL,
   `currentStatus` enum('y','n') NOT NULL DEFAULT 'n'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_practice_examinations`
+--
+
+CREATE TABLE `tbl_practice_examinations` (
+  `id` int(11) NOT NULL,
+  `exam_id` varchar(64) NOT NULL,
+  `category` varchar(64) NOT NULL,
+  `subject` varchar(64) NOT NULL,
+  `exam_name` varchar(255) NOT NULL,
+  `date` varchar(64) NOT NULL,
+  `duration` varchar(64) NOT NULL,
+  `passmark` varchar(64) NOT NULL,
+  `re_exam` varchar(64) NOT NULL,
+  `terms` text NOT NULL,
+  `status` varchar(64) NOT NULL DEFAULT 'Active',
+  `examinerId` varchar(64) NOT NULL,
+  `created_by` varchar(255) NOT NULL,
+  `created_date` varchar(64) NOT NULL,
+  `currentStatus` enum('Y','N') NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `tbl_practice_examinations`
+--
+
+INSERT INTO `tbl_practice_examinations` (`id`, `exam_id`, `category`, `subject`, `exam_name`, `date`, `duration`, `passmark`, `re_exam`, `terms`, `status`, `examinerId`, `created_by`, `created_date`, `currentStatus`) VALUES
+(13, '299713', '', '', 'dsfdf', '2021-03-24', '58', '85', '', 'No negative marking', 'Active', '', '', '2021-03-04 01:28:16', 'Y'),
+(12, '638774', '', '', '', '', '', '', '', 'No negative marking', 'Active', '', '', '2021-03-04 01:17:26', 'Y'),
+(3, '139459', '', '22', '54', '2021-04-01', '45', '45', '', 'No negative marking', 'Active', '', '', '2021-03-04 00:08:43', 'Y'),
+(4, '841179', '', '22', '54', '2021-04-01', '45', '45', '', 'No negative marking', 'Active', '', '', '2021-03-04 00:09:34', 'Y'),
+(5, '779428', '', '22', '54', '2021-04-01', '45', '45', '', 'No negative marking', 'Active', '', '', '2021-03-04 00:12:16', 'Y'),
+(6, '401651', '', '25', 'dfdfdf', '2021-03-17', '54', '45', '', 'Add negative marking', 'Active', '', '', '2021-03-04 00:12:45', 'Y'),
+(7, '335162', '', '25', 'dfdfdf', '2021-03-17', '54', '45', '', 'Add negative marking', 'Active', '', '', '2021-03-04 00:17:24', 'Y'),
+(8, '950005', '', '', 'dsfsdf', '2021-03-24', '54', '45', '', 'No negative marking', 'Active', '', '', '2021-03-04 00:19:02', 'Y'),
+(9, '', '', '', 'sdfsdf', '2021-03-25', '54', '45', '', 'No negative marking', 'Active', '', '', '2021-03-04 00:55:20', 'Y'),
+(11, '250161', '', '', 'sarthakdeshmukh', '2021-03-02', '78', '78', '', 'No negative marking', 'Active', '', '', '2021-03-04 01:12:20', 'Y'),
+(14, '183257', '', '', 'gsjkhdbfjhgfd', '2021-03-28', '56', '45', '', 'No negative marking', 'Active', '', '', '2021-03-04 01:34:10', 'Y'),
+(15, 'EX-335608', '', '22', 'ddd', '2021-03-10', '33', '23', '', 'Add negative marking', 'Active', '', '', '2021-03-04 10:56:51', 'Y'),
+(16, 'EX-53903', '', '25', 'test', '2021-03-16', '43', '65', '', 'No negative marking', 'Active', '', '', '2021-03-04 10:57:44', 'Y'),
+(17, 'EX-65896', '', '26', 'njfg', '2021-03-06', '7', '1', '', 'No negative marking', 'Active', '', '', '2021-03-06 04:00:58', 'Y'),
+(18, 'EX-632053', '', '26', 'q', '2021-03-06', '7', '', '', 'No negative marking', 'Active', '', '', '2021-03-06 04:01:39', 'Y'),
+(19, 'EX-227668', '', '26', 'Pratice test', '2021-03-06', '7', '1', '', 'No negative marking', 'Active', '', '', '2021-03-06 06:06:43', 'Y'),
+(20, 'EX-585819', '', '26', '', '2021-03-06', '', '', '', 'No negative marking', 'Active', '', '', '2021-03-06 06:09:04', 'Y'),
+(21, 'EX-864137', '', '26', 'Quick 06', '2021-03-06', '7', '1', '', 'No negative marking', 'Active', '', '', '2021-03-06 06:09:51', 'Y');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_practice_questions`
+--
+
+CREATE TABLE `tbl_practice_questions` (
+  `id` int(11) NOT NULL,
+  `client_id` varchar(64) DEFAULT NULL,
+  `subject_id` varchar(64) DEFAULT NULL,
+  `question_id` varchar(11) DEFAULT NULL,
+  `question_text` longtext,
+  `question_image` varchar(255) DEFAULT NULL,
+  `option1` longtext NOT NULL,
+  `option2` longtext NOT NULL,
+  `option3` longtext NOT NULL,
+  `option4` longtext NOT NULL,
+  `option5` longtext NOT NULL,
+  `option6` longtext NOT NULL,
+  `option7` longtext NOT NULL,
+  `option1_image` varchar(255) DEFAULT NULL,
+  `option2_image` varchar(255) DEFAULT NULL,
+  `option3_image` varchar(255) DEFAULT NULL,
+  `option4_image` varchar(255) DEFAULT NULL,
+  `option5_image` varchar(255) DEFAULT NULL,
+  `option6_image` varchar(255) DEFAULT NULL,
+  `option7_image` varchar(255) DEFAULT NULL,
+  `answer1` text,
+  `answer2` text,
+  `answer3` text,
+  `answer4` text,
+  `answer5` text,
+  `answer6` text,
+  `answer7` text,
+  `folder_name` varchar(64) NOT NULL,
+  `description` text NOT NULL,
+  `created_by` varchar(100) DEFAULT NULL,
+  `modified_by` varchar(100) DEFAULT NULL,
+  `created_date` datetime NOT NULL,
+  `modified_date` datetime NOT NULL,
+  `currentStatus` enum('y','n') NOT NULL DEFAULT 'n'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_practice_result`
+--
+
+CREATE TABLE `tbl_practice_result` (
+  `candidate_id` varchar(11) DEFAULT NULL,
+  `id` int(11) NOT NULL,
+  `exam_id` varchar(11) DEFAULT NULL,
+  `result` enum('pass','fail') DEFAULT NULL,
+  `candidate_mark` int(6) DEFAULT NULL,
+  `created_by` varchar(100) DEFAULT NULL,
+  `modified_by` varchar(100) DEFAULT NULL,
+  `created_date` datetime DEFAULT NULL,
+  `modified_date` datetime DEFAULT NULL,
+  `currentStatus` enum('y','n') NOT NULL DEFAULT 'n',
+  `certificate` varchar(64) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `tbl_practice_result`
+--
+
+INSERT INTO `tbl_practice_result` (`candidate_id`, `id`, `exam_id`, `result`, `candidate_mark`, `created_by`, `modified_by`, `created_date`, `modified_date`, `currentStatus`, `certificate`) VALUES
+(NULL, 1, NULL, NULL, 33, 'xzcxzc', NULL, NULL, NULL, 'n', NULL);
 
 -- --------------------------------------------------------
 
@@ -921,6 +1148,73 @@ CREATE TABLE `tbl_questions_csv` (
   `modified_date` datetime NOT NULL,
   `currentStatus` enum('y','n') NOT NULL DEFAULT 'n'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_quick_examinations`
+--
+
+CREATE TABLE `tbl_quick_examinations` (
+  `id` int(11) NOT NULL,
+  `exam_id` varchar(64) NOT NULL,
+  `category` varchar(64) NOT NULL,
+  `subject` varchar(64) NOT NULL,
+  `exam_name` varchar(255) NOT NULL,
+  `date` varchar(64) NOT NULL,
+  `duration` varchar(64) NOT NULL,
+  `passmark` varchar(64) NOT NULL,
+  `re_exam` varchar(64) NOT NULL,
+  `terms` text NOT NULL,
+  `status` varchar(64) NOT NULL DEFAULT 'Active',
+  `examinerId` varchar(64) NOT NULL,
+  `created_by` varchar(255) NOT NULL,
+  `created_date` varchar(64) NOT NULL,
+  `currentStatus` enum('Y','N') NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `tbl_quick_examinations`
+--
+
+INSERT INTO `tbl_quick_examinations` (`id`, `exam_id`, `category`, `subject`, `exam_name`, `date`, `duration`, `passmark`, `re_exam`, `terms`, `status`, `examinerId`, `created_by`, `created_date`, `currentStatus`) VALUES
+(13, '299713', '', '', 'dsfdf', '2021-03-24', '58', '85', '', 'No negative marking', 'Active', '', '', '2021-03-04 01:28:16', 'Y'),
+(12, '638774', '', '', '', '', '', '', '', 'No negative marking', 'Active', '', '', '2021-03-04 01:17:26', 'Y'),
+(3, '139459', '', '22', '54', '2021-04-01', '45', '45', '', 'No negative marking', 'Active', '', '', '2021-03-04 00:08:43', 'Y'),
+(4, '841179', '', '22', '54', '2021-04-01', '45', '45', '', 'No negative marking', 'Active', '', '', '2021-03-04 00:09:34', 'Y'),
+(5, '779428', '', '22', '54', '2021-04-01', '45', '45', '', 'No negative marking', 'Active', '', '', '2021-03-04 00:12:16', 'Y'),
+(6, '401651', '', '25', 'dfdfdf', '2021-03-17', '54', '45', '', 'Add negative marking', 'Active', '', '', '2021-03-04 00:12:45', 'Y'),
+(7, '335162', '', '25', 'dfdfdf', '2021-03-17', '54', '45', '', 'Add negative marking', 'Active', '', '', '2021-03-04 00:17:24', 'Y'),
+(8, '950005', '', '', 'dsfsdf', '2021-03-24', '54', '45', '', 'No negative marking', 'Active', '', '', '2021-03-04 00:19:02', 'Y'),
+(9, '', '', '', 'sdfsdf', '2021-03-25', '54', '45', '', 'No negative marking', 'Active', '', '', '2021-03-04 00:55:20', 'Y'),
+(11, '250161', '', '', 'sarthakdeshmukh', '2021-03-02', '78', '78', '', 'No negative marking', 'Active', '', '', '2021-03-04 01:12:20', 'Y'),
+(14, '183257', '', '', 'gsjkhdbfjhgfd', '2021-03-28', '56', '45', '', 'No negative marking', 'Active', '', '', '2021-03-04 01:34:10', 'Y'),
+(15, 'EX-335608', '', '22', 'ddd', '2021-03-10', '33', '23', '', 'Add negative marking', 'Active', '', '', '2021-03-04 10:56:51', 'Y'),
+(16, 'EX-53903', '', '25', 'test', '2021-03-16', '43', '65', '', 'No negative marking', 'Active', '', '', '2021-03-04 10:57:44', 'Y');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_quick_tests`
+--
+
+CREATE TABLE `tbl_quick_tests` (
+  `id` int(11) NOT NULL,
+  `exam_id` varchar(11) NOT NULL,
+  `category` varchar(64) DEFAULT NULL,
+  `subject` varchar(64) NOT NULL,
+  `exam_name` varchar(255) NOT NULL,
+  `date` date NOT NULL,
+  `duration` varchar(64) NOT NULL,
+  `passmark` varchar(64) NOT NULL,
+  `re_exam` varchar(64) DEFAULT NULL,
+  `terms` text NOT NULL,
+  `status` varchar(64) DEFAULT NULL,
+  `examinerId` varchar(64) DEFAULT NULL,
+  `created_by` varchar(255) NOT NULL,
+  `created_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `currentStatus` enum('Y','N') NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -2738,7 +3032,9 @@ INSERT INTO `tbl_subjects` (`id`, `subject_id`, `department_id`, `category_id`, 
 (21, 'SB-589634', 201454, 155709, 'Python', '', '', '2020-12-26 04:53:54', '2020-12-26 04:53:54', 'y'),
 (22, 'SB-326697', 201454, 155709, 'Salesforce', '', '', '2020-12-26 05:01:11', '2020-12-26 05:01:11', 'y'),
 (25, 'SB-672847', 614048, 60789, 'political science', '', '', '2021-02-14 20:16:43', '2021-02-14 20:16:43', 'y'),
-(26, 'SB-494420', 651370, 354986, 'Pdktesting', '', '', '2021-02-19 23:26:48', '2021-02-19 23:26:48', 'y');
+(26, 'SB-494420', 651370, 354986, 'Pdktesting', '', '', '2021-02-19 23:26:48', '2021-02-19 23:26:48', 'y'),
+(27, 'SB-639194', 564213, 155709, '5G Wireless Technology', '', '', '2021-03-03 10:14:51', '2021-03-03 10:14:51', 'y'),
+(28, 'SB-526188', 614048, 220549, 'Todat0606', '', '', '2021-03-06 06:45:59', '2021-03-06 06:45:59', 'y');
 
 -- --------------------------------------------------------
 
@@ -2836,9 +3132,9 @@ CREATE TABLE `tbl_user_registration` (
 
 INSERT INTO `tbl_user_registration` (`id`, `user_id`, `user_type`, `first_name`, `last_name`, `gender`, `address`, `mobile`, `email`, `password`, `image`, `created_by`, `modified_by`, `created_date`, `modified_date`, `currentStatus`) VALUES
 (1, '615170', NULL, 'Ashish', 'Sharma', 'male', 'xascascxasdsca', '8530941117', 'admin@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', '1_logo.jpg', 'abcd', 'admin@gmail.com', '2020-12-17 20:50:43', '2020-12-21 19:44:39', 'y'),
-(3, '72129', NULL, 'Gayatri', 'Vaidya', 'female', '16, JAIWANT NAGARNEAR SAHYANDRI LAWN', '8530941117', 'gv@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', '72129_logo.jpg', 'abcd', 'gv@gmail.com', '2020-12-21 21:16:40', '2020-12-21 21:16:40', 'y'),
+(3, '72129', NULL, 'Gayatri', 'Vaidya', 'female', '16, JAIWANT NAGARNEAR SAHYANDRI LAWN', '8530941117', 'gv@gmail.com', 'd41d8cd98f00b204e9800998ecf8427e', '72129_logo.jpg', 'abcd', 'gv@gmail.com', '2020-12-21 21:16:40', '2020-12-21 21:16:40', 'y'),
 (1, '615170', NULL, 'Ashish', 'Sharma', 'male', 'xascascxasdsca', '8530941117', 'admin@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', '1_logo.jpg', 'abcd', 'admin@gmail.com', '2020-12-17 20:50:43', '2020-12-21 19:44:39', 'y'),
-(3, '72129', NULL, 'Gayatri', 'Vaidya', 'female', '16, JAIWANT NAGARNEAR SAHYANDRI LAWN', '8530941117', 'gv@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', '72129_logo.jpg', 'abcd', 'gv@gmail.com', '2020-12-21 21:16:40', '2020-12-21 21:16:40', 'y'),
+(3, '72129', NULL, 'Gayatri', 'Vaidya', 'female', '16, JAIWANT NAGARNEAR SAHYANDRI LAWN', '8530941117', 'gv@gmail.com', 'd41d8cd98f00b204e9800998ecf8427e', '72129_logo.jpg', 'abcd', 'gv@gmail.com', '2020-12-21 21:16:40', '2020-12-21 21:16:40', 'y'),
 (0, '730614', NULL, 'Devidas', 'Patle', 'male', 'Nagpur', '9579010026', 'devidas.patle@rediffmail.com', 'e10adc3949ba59abbe56e057f20f883e', '730614_dwwww23.jpg', 'abcd', 'devidas.patle@rediffmail.com', '2021-02-14 20:53:26', '2021-02-14 20:53:26', 'y');
 
 --
@@ -2939,11 +3235,35 @@ ALTER TABLE `tbl_country`
   ADD PRIMARY KEY (`con_id`);
 
 --
+-- Indexes for table `tbl_demo_result`
+--
+ALTER TABLE `tbl_demo_result`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `tbl_department`
 --
 ALTER TABLE `tbl_department`
   ADD PRIMARY KEY (`id`),
   ADD KEY `subject_id` (`department_id`);
+
+--
+-- Indexes for table `tbl_examinations`
+--
+ALTER TABLE `tbl_examinations`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `tbl_exam_history`
+--
+ALTER TABLE `tbl_exam_history`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `tbl_live_result`
+--
+ALTER TABLE `tbl_live_result`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `tbl_new_test`
@@ -2958,6 +3278,24 @@ ALTER TABLE `tbl_notice`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `tbl_practice_examinations`
+--
+ALTER TABLE `tbl_practice_examinations`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `tbl_practice_questions`
+--
+ALTER TABLE `tbl_practice_questions`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `tbl_practice_result`
+--
+ALTER TABLE `tbl_practice_result`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `tbl_questions`
 --
 ALTER TABLE `tbl_questions`
@@ -2967,6 +3305,12 @@ ALTER TABLE `tbl_questions`
 -- Indexes for table `tbl_questions_csv`
 --
 ALTER TABLE `tbl_questions_csv`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `tbl_quick_tests`
+--
+ALTER TABLE `tbl_quick_tests`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -3039,7 +3383,7 @@ ALTER TABLE `tbl_admin_payment`
 -- AUTO_INCREMENT for table `tbl_advertisement`
 --
 ALTER TABLE `tbl_advertisement`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `tbl_candidate_exam`
@@ -3069,19 +3413,19 @@ ALTER TABLE `tbl_candidate_payment`
 -- AUTO_INCREMENT for table `tbl_candidate_registration`
 --
 ALTER TABLE `tbl_candidate_registration`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `tbl_category`
 --
 ALTER TABLE `tbl_category`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `tbl_client_logo`
 --
 ALTER TABLE `tbl_client_logo`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=71;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=74;
 
 --
 -- AUTO_INCREMENT for table `tbl_client_package`
@@ -3093,7 +3437,7 @@ ALTER TABLE `tbl_client_package`
 -- AUTO_INCREMENT for table `tbl_client_registration`
 --
 ALTER TABLE `tbl_client_registration`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `tbl_country`
@@ -3102,10 +3446,34 @@ ALTER TABLE `tbl_country`
   MODIFY `con_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=221;
 
 --
+-- AUTO_INCREMENT for table `tbl_demo_result`
+--
+ALTER TABLE `tbl_demo_result`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT for table `tbl_department`
 --
 ALTER TABLE `tbl_department`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+
+--
+-- AUTO_INCREMENT for table `tbl_examinations`
+--
+ALTER TABLE `tbl_examinations`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `tbl_exam_history`
+--
+ALTER TABLE `tbl_exam_history`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `tbl_live_result`
+--
+ALTER TABLE `tbl_live_result`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `tbl_new_test`
@@ -3117,7 +3485,25 @@ ALTER TABLE `tbl_new_test`
 -- AUTO_INCREMENT for table `tbl_notice`
 --
 ALTER TABLE `tbl_notice`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `tbl_practice_examinations`
+--
+ALTER TABLE `tbl_practice_examinations`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+
+--
+-- AUTO_INCREMENT for table `tbl_practice_questions`
+--
+ALTER TABLE `tbl_practice_questions`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `tbl_practice_result`
+--
+ALTER TABLE `tbl_practice_result`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `tbl_questions`
@@ -3129,6 +3515,12 @@ ALTER TABLE `tbl_questions`
 -- AUTO_INCREMENT for table `tbl_questions_csv`
 --
 ALTER TABLE `tbl_questions_csv`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `tbl_quick_tests`
+--
+ALTER TABLE `tbl_quick_tests`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
@@ -3147,7 +3539,7 @@ ALTER TABLE `tbl_subimages_folder`
 -- AUTO_INCREMENT for table `tbl_subjects`
 --
 ALTER TABLE `tbl_subjects`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 
 --
 -- AUTO_INCREMENT for table `tbl_subject_info`
